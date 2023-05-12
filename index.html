@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final website of the YEAR</title>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, we are <span>Lee and Rylee,</span>  we<br> are beginner coders. <br> <br>Learn more about use below <span class="v"> <br>V</span> </h1>
+        </div> 
+    </div>
+</div>
+<!------------------about------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="goat wibsite.jpg">
+            </div>
+            <div class="about-col-2"></div>
+            <h1>About Lee</h1>
+        </div>
+        <div class="about-col-3">
+            <img src="cattle.jpg"></div>
+            
+        <div class="about-col-4"></div>
+        <h1 class="abouttext">About </h1>
+        <h1 class="Rylee">Rylee</h1>
+        <p class="Leetext"><a href="https://goatyfire.github.io/personal-website/" target="_blank" class="Leetext-1">Come and explore what I do in my life and <br> some of the many projects i have <span>made.</span></a></p>
+        <p class="Ryleetext"> <a href="https://yourlocalblondie.github.io/final-Rylee-/" target="_blank" class="Ryleetext-1">Come and Learn about Me (Rylee) in my day to day <br> life and what projects i have <span>made.</span></a> </p>
+        <p class="clicktext">Click on text to learn more <br>_____ about each of us._____</p>
+       </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <div class="navigation">
+        <div class="menuToggle"></div>
+    <ul>
+    <li class="list">
+        <a href="#" style="--clr:#f44336;">
+        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+            
+            <span class="text">Home</span>
+        </a>
+    </li>
+
+    <li class="list">
+        <a href="#" style="--clr:#0fc70f;">
+        <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon>
+            <span class="text"><span>
+        </a>
+    </li>
+    <li class="list">
+        <a href="#" style="--clr:#2196f3;">
+        <span class="icon"><ion-icon name="image-outline"></ion-icon></span>
+            <span class="text">Photos<span>
+        </a>
+    </li>
+    <li class="list">
+        <a href="#" style="--clr:#b145e9;">
+        <span class="icon"><ion-icon name="logo-github"></ion-icon></span>
+            <span class="text">Settings<span>
+        </a>
+    </li>
+    <ul>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let menuToggle = document.querySelector('.menuToggle')
+        let navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+        navigation.classList.toggle('active')
+        }
+
+        let list = document.querySelectorAll('.list');
+        function activeLink(){
+            List.forEach((item)=>item.xlassList.removeitem.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink));
+
+        
+    </script>
+   </body>
+  </html>
